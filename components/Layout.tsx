@@ -77,9 +77,9 @@ const Layout: React.FC<LayoutProps> = ({ children, theme, setTheme, activeTab, s
              <p className="mt-1"><b className="text-black dark:text-white">Founded </b> by <b className="text-black dark:text-white">Haris Shafi,</b> driven by a vision to make invoicing effortless for freelancers and small businesses everywhere</p> 
             </div>
             <div className="flex items-center gap-3 text-gray-400">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Twitter"><Twitter size={14} /></a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Github"><Github size={14} /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Linkedin"><Linkedin size={14} /></a>
+              <a href="https://x.com/harisshafi3" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Twitter"><Twitter size={14} /></a>
+              <a href="https://github.com/Harisshafi01/Easeinvo" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Github"><Github size={14} /></a>
+              <a href="https://www.linkedin.com/in/harisshafi01/" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Linkedin"><Linkedin size={14} /></a>
               <a href="https://www.instagram.com/easeinvo/" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
             </div>
           </div>
