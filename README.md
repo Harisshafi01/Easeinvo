@@ -1,106 +1,135 @@
-🚀 Easeinvo
-Easeinvo Banner
+# EaseInvo
 
-Easeinvo is an intelligent, AI-powered application generated via Google AI Studio. Built with a modern frontend stack, it leverages the Gemini API to provide seamless AI capabilities right out of the box.
+🚀 **EaseInvo** is a modern AI-powered invoicing application built with **React, TypeScript, and Vite**.
+It is designed to help freelancers, startups, and small businesses create professional invoices quickly and efficiently.
 
-View the live app prompt in AI Studio: Easeinvo on AI Studio
+---
 
-✨ Features
-AI-Powered Core: Integrates directly with the Gemini API to handle intelligent tasks and conversational logic.
-Modern Frontend: Built with React, TypeScript, and Vite for lightning-fast HMR and optimized builds.
-Component-Driven: Modular UI architecture making it easy to scale and maintain.
-Ready to Deploy: Comes with built-in configuration to easily deploy to platforms like Vercel, Netlify, or Firebase.
-🛠️ Tech Stack
-Framework: React 18
-Language: TypeScript
-Bundler: Vite
-AI Integration: Google Gemini API
-Styling: CSS / Styling abstractions (configurable)
-🚀 Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## ✨ Features
 
-Prerequisites
-Ensure you have the following installed on your local machine:
+* 📄 Create professional invoices
+* ⚡ Fast and modern UI built with React + Vite
+* 🧩 Component-based architecture
+* 📱 Responsive design for mobile and desktop
+* 🤖 AI-powered capabilities using Google Gemini API
+* 🚀 Easy deployment
 
-Node.js (v16.x or higher recommended)
-npm or yarn
-1. Clone the repository
-git clone [https://github.com/Harisshafi01/Easeinvo.git](https://github.com/Harisshafi01/Easeinvo.git)
-cd Easeinvo
-2. Install dependencies
-Using npm:
+---
 
-Bash
+## 🛠 Tech Stack
 
-npm install
-Using yarn:
+* **React**
+* **TypeScript**
+* **Vite**
+* **Google Gemini API**
+* **CSS / Modern UI components**
 
-Bash
+---
 
-yarn install
-3. Set up Environment Variables
-To make the AI features work, you'll need to configure your Gemini API key.
+## 📂 Project Structure
 
-Obtain an API key from Google AI Studio.
-
-Create a .env.local file in the root of your project directory.
-
-Add your key to the file:
-
-Code snippet
-
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-# Note: If the code specifically looks for GEMINI_API_KEY without the VITE_ prefix on the frontend, use:
-# GEMINI_API_KEY=your_gemini_api_key_here
-4. Run the Development Server
-Start the local development server:
-
-Bash
-
-npm run dev
-Your app should now be running locally. Open http://localhost:5173 in your browser to view it.
-
-📂 Project Structure
-Plaintext
-
+```
 Easeinvo/
-├── components/      # Reusable React components
-├── utils/           # Helper functions and utility scripts
-├── .env.local       # Local environment variables (do not commit)
-├── App.tsx          # Main application component
-├── constants.tsx    # Global constants and configurations
-├── index.html       # HTML entry point
-├── index.tsx        # React DOM rendering entry point
-├── package.json     # Project dependencies and scripts
-├── tsconfig.json    # TypeScript configuration
-├── types.ts         # Global TypeScript interfaces and types
-└── vite.config.ts   # Vite bundler configuration
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page.
+│
+├── components/        # Reusable React components
+├── utils/             # Utility functions
+│
+├── App.tsx            # Main app component
+├── constants.tsx      # Global constants
+├── index.tsx          # React entry point
+├── index.html         # HTML template
+├── types.ts           # TypeScript interfaces
+│
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── metadata.json
+```
 
-Fork the Project
+---
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+## ⚙️ Installation
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+### 1. Clone the repository
 
-Push to the Branch (git push origin feature/AmazingFeature)
+```bash
+git clone https://github.com/Harisshafi01/Easeinvo.git
+cd Easeinvo
+```
 
-Open a Pull Request
+### 2. Install dependencies
 
-📄 License
-This project is open-source and available under the MIT License.
+```bash
+npm install
+```
 
+### 3. Run the development server
 
-### How to use this:
-1. Go to your repository on GitHub.
-2. Click the pencil icon ✏️ on your current `README.md` file.
-3. Replace the existing content with the markdown text provided above.
-4. Commit your changes!
-5. Push to the Branch (git push origin feature/AmazingFeature)
+```bash
+npm run dev
+```
 
-Open a Pull Request
+The app will run on:
 
-📄 License
-This project is open-source and available under the MIT License.
+```
+http://localhost:5173
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+You can get the API key from **Google AI Studio**.
+
+---
+
+## 🚀 Deployment
+
+You can deploy this project easily using:
+
+* Vercel
+* Netlify
+* Firebase Hosting
+
+Just connect the GitHub repository and deploy.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Haris Shafi**
+
+GitHub: https://github.com/Harisshafi01
